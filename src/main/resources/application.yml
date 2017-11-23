@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri=config
+          uri: config
 
 server:
   port: 9020
