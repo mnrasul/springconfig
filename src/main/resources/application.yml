@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri=config
+
+server:
+  port: 9020
+
+#Turning off security for demo purposes
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9010/eureka/
