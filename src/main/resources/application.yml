@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: config
+          uri: /Users/nasir/sources/springconfig/src/main/resources/config
 
 server:
   port: 9020
@@ -14,7 +14,10 @@ server:
 management:
   security:
     enabled: false
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:9010/eureka/
+
+message: "Arr matey"
