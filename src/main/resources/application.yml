@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/mnrasul/configurations
-          searchPaths: config
+          searchPaths: server-config
 
 server:
   port: 9020
