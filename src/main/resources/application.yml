@@ -1,16 +1,5 @@
-spring:
-  application:
-    name: config-service
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/mnrasul/configurations
-          searchPaths: server-config
-
 server:
   port: 9020
-
 #Turning off security for demo purposes
 management:
   security:
